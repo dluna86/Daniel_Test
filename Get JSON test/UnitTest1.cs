@@ -4,6 +4,7 @@ using System.Text;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Get_JSON_test.API_POM_Class;
+using NUnit.Framework;
 
 namespace Get_JSON_test
 {
@@ -116,7 +117,7 @@ namespace Get_JSON_test
     [TestClass]
     public class PostAndDeleteAPI
     {
-        [TestMethod]
+        [Test]
         public void PostAndDelete()
         {
             try
